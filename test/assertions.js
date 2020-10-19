@@ -335,6 +335,10 @@ module.exports = {
           expect.errorMode = 'nested';
           expect.shift(subject.toJSON());
         }
-      );
+      )
+      .addAssertion('<Set> as array <assertion>', (expect, subject) => {
+        expect.errorMode = 'nested';
+        expect.shift([...subject]);
+      });
   }
 };
