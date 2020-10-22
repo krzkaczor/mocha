@@ -34,8 +34,8 @@
   "logo": "https://cldup.com/S9uQ-cOLYz.svg",
   "notifyLogo": "https://ibin.co/4QuRuGjXvl36.png",
   "bin": {
-    "mocha": "./bin/mocha",
-    "_mocha": "./bin/_mocha"
+    "mocha": "bin/mocha",
+    "_mocha": "bin/_mocha"
   },
   "directories": {
     "lib": "./lib",
@@ -146,8 +146,8 @@
     "rewiremock": "^3.14.3",
     "rimraf": "^3.0.2",
     "rollup": "^2.23.1",
-    "rollup-plugin-node-polyfills": "^0.2.1",
     "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-node-polyfills": "^0.2.1",
     "rollup-plugin-visualizer": "^4.1.0",
     "sinon": "^9.0.3",
     "strip-ansi": "^6.0.0",
