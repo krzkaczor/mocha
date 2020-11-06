@@ -339,12 +339,6 @@ module.exports = {
       .addAssertion('<Set> as array <assertion>', (expect, subject) => {
         expect.errorMode = 'nested';
         expect.shift([...subject]);
-      })
-      .addAssertion(
-        '<Map> to have size <number>',
-        (expect, subject, expectedSize) => {
-          expect(subject.size === expectedSize, 'to be true');
-        }
-      );
+      });
   }
 };
